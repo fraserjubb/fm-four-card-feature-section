@@ -108,12 +108,30 @@ MAIN:
 */
 /* Header: */
 .header {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+  max-width: 540px;
+  text-align: center;
+
+  margin: 100px auto 74px auto;
+}
+
+.header__title,
+.header__tagline {
+  font-size: var(--36px);
+  letter-spacing: 0.25px;
 }
 
 .header__title {
+  font-weight: var(--fw-semibold);
+  margin-bottom: var(--16px);
 }
 
 .header__tagline {
+  order: -1;
+  font-weight: var(--fw-extralight);
 }
 
 .header__description {
