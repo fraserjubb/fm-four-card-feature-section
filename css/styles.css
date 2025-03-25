@@ -16,6 +16,11 @@
   --18px: 1.125rem;
   --20px: 1.25rem;
   --24px: 1.5rem;
+
+  /* Font Weights: */
+  --fw-extralight: 200;
+  --fw-regular: 400;
+  --fw-semibold: 600;
 }
 
 /* 
@@ -26,12 +31,28 @@ SELF-HOSTING FONT:
 
 /* VARIABLE FONT: */
 @font-face {
-  font-family: "Inter";
-  src: url("/assets/fonts/Inter-VariableFont_opsz\,wght.woff2")
-    format("woff2 supports variations");
-  src: url("/assets/fonts/Inter-VariableFont_opsz\,wght.woff2")
-    format("woff2-variations");
-  font-weight: 100 900; /*Check values*/
+  font-family: "Poppins";
+  src: url("Poppins-Regular.woff2") format("woff2"),
+    url("Poppins-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins-SemiBold.woff2") format("woff2"),
+    url("Poppins-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("Poppins-ExtraLight.woff2") format("woff2"),
+    url("Poppins-ExtraLight.woff") format("woff");
+  font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
