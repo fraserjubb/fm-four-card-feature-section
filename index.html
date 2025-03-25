@@ -4,15 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="description" content="Minor project created after completing the frontendmentor.io {Challenge Name} Challenge." />
+    <meta name="description" content="Minor project created after completing the frontendmentor.io 'Four card feature section' Challenge." />
 
-    <title>Frontend Mentor | {Challenge Name} | Fraser Jubb</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Four card feature section | Fraser Jubb</title>
 
     <link rel="stylesheet" href="/css/styles.css" />
     <!-- <link rel="stylesheet" href="/css/queries.css" /> -->
   </head>
   <body>
-    <h1 class="title">"And so it begins." —King Théoden</h1>
+    <header class="header">
+      <h2 class="header__title">Powered by Technology</h2>
+      Reliable, efficient delivery
+      <p class="header__tagline"></p>
+      Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful
+      <p class="header__description"></p>
+    </header>
+
+    <main class="container">
+      <article class="card">
+        <h3 class="card__title">Supervisor</h3>
+        <p class="card__description">Monitors activity to identify project roadblocks</p>
+        <img src="/assets/images/icon-supervisor.svg" alt="" class="card__image" />
+      </article>
+      <div class="column">
+        <article class="card">
+          <h3 class="card__title">Team Builder</h3>
+          <p class="card__description">Scans our talent network to create the optimal team for your project</p>
+          <img src="/assets/images/icon-team-builder.svg" alt="" class="card__image" />
+        </article>
+        <article class="card">
+          <h3 class="card__title">Karma</h3>
+          <p class="card__description">Regularly evaluates our talent to ensure quality</p>
+          <img src="/assets/images/icon-karma.svg" alt="" class="card__image" />
+        </article>
+      </div>
+      <article class="card">
+        <h3 class="card__title">Calculator</h3>
+        <p class="card__description">Uses data from past projects to provide better delivery estimates</p>
+        <img src="/assets/images/icon-calculator.svg" alt="" class="card__image" />
+      </article>
+    </main>
+
     <footer class="attribution">Challenge by <a href="https://www.frontendmentor.io/profile/fraserjubb" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.frontendmentor.io/profile/fraserjubb" target="_blank">Fraser Jubb</a>.</footer>
   </body>
 </html>
