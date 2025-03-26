@@ -1,0 +1,38 @@
+@media (max-width: 1000px) {
+  .header {
+    margin: 74px auto;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .group-mid {
+    flex-direction: row;
+  }
+
+  .card {
+    flex: 1;
+    max-width: 314px;
+  }
+}
+
+@media (max-width: 685px) {
+  .header {
+    max-width: 316px;
+    margin: 60px auto;
+  }
+
+  .header__title,
+  .header__tagline {
+    font-size: var(--24px);
+  }
+
+  .group-mid {
+    flex-direction: column;
+  }
+
+  .card {
+    /* margin-bottom: var(--32px); */
+  }
+}
