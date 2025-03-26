@@ -5,6 +5,7 @@
 
   .container {
     flex-direction: column;
+    margin-bottom: 74px;
   }
 
   .group-mid {
@@ -32,7 +33,7 @@
     flex-direction: column;
   }
 
-  .card {
-    /* margin-bottom: var(--32px); */
+  .container {
+    margin-bottom: 60px;
   }
 }
