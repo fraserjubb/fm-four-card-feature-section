@@ -1,11 +1,11 @@
 @media (max-width: 1000px) {
   .header {
-    margin: 74px auto;
+    margin: 4.625rem auto;
   }
 
   .container {
     flex-direction: column;
-    margin-bottom: 74px;
+    margin-bottom: 4.625rem;
   }
 
   .group-mid {
@@ -14,14 +14,14 @@
 
   .card {
     flex: 1;
-    max-width: 314px;
+    max-width: 19.63rem;
   }
 }
 
 @media (max-width: 685px) {
   .header {
-    max-width: 316px;
-    margin: 60px auto;
+    max-width: 19.75rem;
+    margin: 4rem auto;
   }
 
   .header__title,
@@ -34,6 +34,6 @@
   }
 
   .container {
-    margin-bottom: 60px;
+    margin-bottom: 4rem;
   }
 }

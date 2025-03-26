@@ -113,8 +113,8 @@ MAIN:
   display: flex;
   flex-direction: column;
 
-  margin: 78px auto;
-  max-width: 540px;
+  margin: 4.875rem auto;
+  max-width: 33.75rem;
   text-align: center;
 }
 
