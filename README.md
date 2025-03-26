@@ -1,6 +1,6 @@
 # FM - <Challenge Name> Solution - Fraser Jubb
 
-This is a solution to [this challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/<link>).
+This is a solution to [this challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK).
 
 ## 📖 Table of contents
 
@@ -10,7 +10,6 @@ This is a solution to [this challenge on Frontend Mentor](https://www.frontendme
 - [My Process](#my-process)
   - [Built With](#built-with)
   - [What I Learned](#what-i-learned)
-  - [Continued Development](#continued-development)
   - [Useful Resources](#useful-resources)
 - [Noteworthy Updates Since Initial Submission](#noteworthy-updates-since-initial-submission)
 - [Connect With Me](#connect-with-me)
@@ -24,7 +23,7 @@ This is a solution to [this challenge on Frontend Mentor](https://www.frontendme
 ### Project Links
 
 - Solution URL: [Click Here](url)
-- Live Site URL: [Click Here](url)
+- Live Site URL: [Click Here](https://fm-fourcards-fraser.netlify.app/)
 - Frontend Mentor Profile: [@fraserjubb](https://www.frontendmentor.io/profile/fraserjubb)
 
 ## My Process
@@ -39,22 +38,13 @@ This is a solution to [this challenge on Frontend Mentor](https://www.frontendme
 
 In this particular project:
 
-1.
+1. I reinforced my Flexbox skills.
 
-```css
-<Code proud of>
-```
-
-### Continued Development
-
-After submitting this project, I wish to develop the following:
-
-1. <text>
+2. I improved my speed/workflow for reading a Figma file and making my own notes on it.
 
 ### Useful Resources
 
 - Nothing of note used for this project.
-- [<Text to appear> (<Media Type>)](link) - <description of how it helped>
 
 ## Noteworthy Updates Since Initial Submission
 
@@ -70,4 +60,3 @@ After submitting this project, I wish to develop the following:
 <a href="mailto:fraserjubb.dev@gmail.com"><img height="30px" align="left" alt="Gmail" style="padding-right:10px" title="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=plastic&logo=gmail&logoColor=white"/></a>
 
 <br/>
-# fm-four-card-feature-section
